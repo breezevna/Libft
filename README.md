@@ -1,4 +1,5 @@
 # Libft
+The <br>libft project</br> is a collection of C library functions that aim to replicate the behavior of standard library functions found in the C Standard Library (libc). These functions follow the same prototypes and behaviors as their original libc counterparts and are designed to be compatible with the way they are defined in the respective man pages.
 # Libft Functions
 
 ### Functions from `<ctype.h>`
