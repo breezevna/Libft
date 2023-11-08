@@ -6,7 +6,7 @@
 /*   By: breezevna <breezevna@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/24 15:58:23 by breezevna         #+#    #+#             */
-/*   Updated: 2023/11/07 15:22:51 by breezevna        ###   ########.fr       */
+/*   Updated: 2023/11/08 15:15:54 by breezevna        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	size_t	j;
 
 	i = 0;
-	if(!haystack && !len)
+	if (!haystack && !len)
 		return (NULL);
 	if (needle[0] == '\0' || needle == NULL)
 		return ((char *)haystack);
